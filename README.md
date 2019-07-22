@@ -43,7 +43,6 @@ refund.php 退款
 
 # 若对您有帮助，可以赞助并支持下作者哦，谢谢！
 
-<p align="center">
-    <img src="https://www.dedemao.com/uploads/zan.jpg" width="500px">
-    <p align="center">联系邮箱：884358@qq.com</p>
+<p align="center">  
+    <p align="center">联系邮箱：95723515@qq.com</p>
 </p>
