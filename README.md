@@ -37,6 +37,5 @@ refund.php 退款
 
 # 若对您有帮助，可以赞助并支持下作者哦，谢谢！
 
-<p align="center">  
-    <p align="center">联系邮箱：95723515@qq.com</p>
-</p>
+联系邮箱：95723515@qq.com</p>
+
