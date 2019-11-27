@@ -10,6 +10,7 @@ $appid = 'xxxxx';  //公众号APPID 通过微信支付商户资料审核后邮�
 $apiKey = 'xxxxx';   //https://pay.weixin.qq.com 帐户设置-安全设置-API安全-API密钥-设置API密钥
 $wxPay = new WxpayService($mchid,$appid,$apiKey);
 $result = $wxPay->notify();
+
 if($result){
     //完成你的逻辑
     //例如连接数据库，获取付款金额$result['cash_fee']，获取订单号$result['out_trade_no']，修改数据库中的订单状态等;
