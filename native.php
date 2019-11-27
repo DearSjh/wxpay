@@ -14,6 +14,7 @@ $arr = $wxPay->createJsBizPackage($payAmount,$outTradeNo,$orderName,$notifyUrl,$
 $url = 'https://www.kuaizhan.com/common/encode-png?large=true&data='.$arr['code_url'];
 echo "<img src='{$url}' style='width:300px;'><br>";
 echo '二维码内容：'.$arr['code_url'];
+
 class WxpayService
 {
     protected $mchid;
