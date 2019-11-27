@@ -80,6 +80,7 @@ class WxpayService
     {
         $this->notifyUrl = $notifyUrl;
     }
+    
     public function setReturnUrl($returnUrl)
     {
         $this->returnUrl = $returnUrl;
