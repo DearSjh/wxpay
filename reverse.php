@@ -6,6 +6,7 @@
  * 1.撤销订单要求必传证书，需要到https://pay.weixin.qq.com 账户中心->账户设置->API安全->下载证书
  * 2.错误码参照 ：https://pay.weixin.qq.com/wiki/doc/api/micropay.php?chapter=9_11&index=3
  */
+
 header('Content-type:text/html; Charset=utf-8');
 /* 配置开始  */
 $mchid = '';          //微信支付商户号 PartnerID 通过微信支付商户资料审核后邮件发送
