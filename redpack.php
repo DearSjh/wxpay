@@ -26,6 +26,7 @@ $wishing = '祝您元旦快乐！';      //红包祝福语
 $act_name='元旦快乐';           //活动名称
 $result = $wxPay->createJsBizPackage($openId,$payAmount,$outTradeNo,$sendName,$wishing,$act_name);
 echo 'success';
+
 class WxpayService
 {
     protected $mchid;
