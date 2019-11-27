@@ -145,6 +145,7 @@ class WxpayService
         $xml .= "</xml>";
         return $xml;
     }
+    
     /**
      * 获取签名
      */
