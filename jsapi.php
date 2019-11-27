@@ -298,4 +298,5 @@ class WxpayService
         }
         return $reqPar;
     }
+	
 }
