@@ -25,6 +25,7 @@ $user = $wxPay->getUserInfo($data['openid'],$data['access_token']);
     <script src="https://cdn.bootcss.com/jquery/2.1.0/jquery.min.js"></script>
 </head>
 <body>
+	
 <div class="container">
     <div class="row">
         <h1>你的基本信息如下：</h1>
