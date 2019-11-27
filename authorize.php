@@ -232,5 +232,4 @@ class WxService
         curl_close($ch);
         return $data;
     }
-
 }
