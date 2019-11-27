@@ -151,6 +151,7 @@ class WxpayService
                 $buff .= $k . "=" . $v . "&";
             }
         }
+        
         $reqPar = '';
         if (strlen($buff) > 0) {
             $reqPar = substr($buff, 0, strlen($buff) - 1);
